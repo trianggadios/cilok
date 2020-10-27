@@ -39,6 +39,8 @@ driver.get(url)
 driver.find_element_by_name('user_name').send_keys(npmMahasiswa)
 driver.find_element_by_name('user_pass').send_keys(password)
 asd=12345
+driver.find_element_by_name('user_name').send_keys(npmMahasiswa)
+driver.find_element_by_name('user_pass').send_keys(password)
 driver.find_element_by_name('login').click()
 
 time.sleep(5)
