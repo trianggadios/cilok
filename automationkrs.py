@@ -19,6 +19,7 @@ smester = []
 
 #perubahan
 
+
 if (Semester == "Semester 1"):
     smester.append(0,15)
 elif (Semester == "Semester 3"):
